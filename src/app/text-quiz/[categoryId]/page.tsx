@@ -42,15 +42,53 @@ export default async function QuizPage({ params }: PageProps) {
     }
 
     // 3. Map to QuizClient format
-    const questions = questionsData.map((q, index) => ({
+    const questions = questionsData.map((q) => ({
         id: q.id,
         question_text: q.question_text,
-        options: q.quiz_options?.map(o => ({
-            id: o.id,
-            image_url: o.image_url,
-            label: o.option_text || "",
-            is_correct: o.is_correct || false
-        })) || []
+        options: q.quiz_options?.map(o => {
+            // ALWAYS prioritize extracting filename from URL as label if it exists
+            // This ensures modules 5-9 also use the clean filename descriptions
+            let label = "";
+
+            if (o.image_url) {
+                try {
+                    // Split by ? to remove query params, then by / to get path segments
+                    const cleanUrl = o.image_url.split('?')[0];
+                    const urlParts = cleanUrl.split('/').filter(Boolean);
+                    const fileNameWithExt = urlParts[urlParts.length - 1];
+
+                    if (fileNameWithExt) {
+                        // Get filename without extension
+                        const lastDotIndex = fileNameWithExt.lastIndexOf('.');
+                        const fileName = lastDotIndex !== -1
+                            ? fileNameWithExt.substring(0, lastDotIndex)
+                            : fileNameWithExt;
+
+                        // Decode URI characters (like %20 to space)
+                        const decodedName = decodeURIComponent(fileName);
+
+                        // If we have a valid decoded name, use it as the label
+                        if (decodedName && decodedName !== "undefined" && decodedName !== "null") {
+                            label = decodedName;
+                        }
+                    }
+                } catch (e) {
+                    console.error("Error parsing image URL for label:", e);
+                }
+            }
+
+            // Fallback to database text if URL extraction failed or result was empty
+            if (!label) {
+                label = o.option_text || "";
+            }
+
+            return {
+                id: o.id,
+                image_url: o.image_url,
+                label: label,
+                is_correct: o.is_correct || false
+            };
+        }) || []
     }));
 
     // Filter questions that have at least one option (optional, but good for UX)
