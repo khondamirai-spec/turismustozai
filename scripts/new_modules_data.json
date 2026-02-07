@@ -1,0 +1,2522 @@
+[
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist telefonni qanday ko‘taradi?",
+    "option_text": "baqirib",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/1-savol/baqirib.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist telefonni qanday ko‘taradi?",
+    "option_text": "sovuqqon",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/1-savol/sovuqqon.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist telefonni qanday ko‘taradi?",
+    "option_text": "tabassum",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/1-savol/tabassum.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist telefonni qanday ko‘taradi?",
+    "option_text": "uxlash",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/1-savol/uxlash.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist telefon orqali qanday gapiradi?",
+    "option_text": "baqirish",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/2-savol/baqirish.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist telefon orqali qanday gapiradi?",
+    "option_text": "muloyim",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/2-savol/muloyim.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist telefon orqali qanday gapiradi?",
+    "option_text": "sovuqqon",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/2-savol/sovuqqon.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist telefon orqali qanday gapiradi?",
+    "option_text": "sukut",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/2-savol/sukut.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "Telefon suhbatida nima muhim?",
+    "option_text": "baqirgan",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/3-savol/baqirgan.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "Telefon suhbatida nima muhim?",
+    "option_text": "diqqatli",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/3-savol/diqqatli.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "Telefon suhbatida nima muhim?",
+    "option_text": "ko'z yumish",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/3-savol/ko'z%20yumish.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "Telefon suhbatida nima muhim?",
+    "option_text": "sovuqqon",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/3-savol/sovuqqon.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionist buyurtma yoki so‘rovni qanday qabul qiladi?",
+    "option_text": "baeparvo",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/4-savol/baeparvo.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionist buyurtma yoki so‘rovni qanday qabul qiladi?",
+    "option_text": "baqirish",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/4-savol/baqirish.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionist buyurtma yoki so‘rovni qanday qabul qiladi?",
+    "option_text": "yoq qilish",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/4-savol/yoq%20qilish.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionist buyurtma yoki so‘rovni qanday qabul qiladi?",
+    "option_text": "yozib oladi",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/4-savol/yozib%20oladi.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "5-savol",
+    "question_text": "Receptionist mehmonni qanday xabardor qiladi?",
+    "option_text": "baqirish",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/5-savol/baqirish.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "5-savol",
+    "question_text": "Receptionist mehmonni qanday xabardor qiladi?",
+    "option_text": "beparvo",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/5-savol/beparvo.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "5-savol",
+    "question_text": "Receptionist mehmonni qanday xabardor qiladi?",
+    "option_text": "qayta telefon qilish",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/5-savol/qayta%20telefon%20qilish.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "5-savol",
+    "question_text": "Receptionist mehmonni qanday xabardor qiladi?",
+    "option_text": "sukut",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/5-savol/sukut.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Qaysi rasm professional telefon xizmatini ko‘rsatadi?",
+    "option_text": "baqirish",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/6-savol/baqirish.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Qaysi rasm professional telefon xizmatini ko‘rsatadi?",
+    "option_text": "beparvo",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/6-savol/beparvo.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Qaysi rasm professional telefon xizmatini ko‘rsatadi?",
+    "option_text": "tabassum",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/6-savol/tabassum.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Qaysi rasm professional telefon xizmatini ko‘rsatadi?",
+    "option_text": "uxlash",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.1%20mavzu/6-savol/uxlash.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist buyurtmani qanday qabul qiladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/1-savol/a.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist buyurtmani qanday qabul qiladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/1-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist buyurtmani qanday qabul qiladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/1-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist buyurtmani qanday qabul qiladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/1-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist mehmon so‘rovini qanday tinglaydi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/2-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist mehmon so‘rovini qanday tinglaydi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/2-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist mehmon so‘rovini qanday tinglaydi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/2-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist mehmon so‘rovini qanday tinglaydi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/2-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "3-savol",
+    "question_text": "Buyurtmani qabul qilganda receptionist nima qiladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/3-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "3-savol",
+    "question_text": "Buyurtmani qabul qilganda receptionist nima qiladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/3-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "3-savol",
+    "question_text": "Buyurtmani qabul qilganda receptionist nima qiladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/3-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "3-savol",
+    "question_text": "Buyurtmani qabul qilganda receptionist nima qiladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/3-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "4-savol",
+    "question_text": ". Receptionist so‘rovni qanday qayta aytadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/4-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "4-savol",
+    "question_text": ". Receptionist so‘rovni qanday qayta aytadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/4-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "4-savol",
+    "question_text": ". Receptionist so‘rovni qanday qayta aytadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/4-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "4-savol",
+    "question_text": ". Receptionist so‘rovni qanday qayta aytadi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/4-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "5-savol",
+    "question_text": "Receptionist xizmatni vaqtda yetkazish uchun nima qiladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/5-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "5-savol",
+    "question_text": "Receptionist xizmatni vaqtda yetkazish uchun nima qiladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/5-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "5-savol",
+    "question_text": "Receptionist xizmatni vaqtda yetkazish uchun nima qiladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/5-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "5-savol",
+    "question_text": "Receptionist xizmatni vaqtda yetkazish uchun nima qiladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/5-savol/e.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "6-savol",
+    "question_text": "Qaysi rasm professional buyurtma qabul qilishni ko‘rsatadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/6-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "6-savol",
+    "question_text": "Qaysi rasm professional buyurtma qabul qilishni ko‘rsatadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/6-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "6-savol",
+    "question_text": "Qaysi rasm professional buyurtma qabul qilishni ko‘rsatadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/6-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.2 mavzu",
+    "savol": "6-savol",
+    "question_text": "Qaysi rasm professional buyurtma qabul qilishni ko‘rsatadi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.2%20mavzu/6-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist shikoyatni qanday qabul qiladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/1-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist shikoyatni qanday qabul qiladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/1-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist shikoyatni qanday qabul qiladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/1-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist shikoyatni qanday qabul qiladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/1-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist shikoyatni qanday javob bilan qabul qiladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/2-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist shikoyatni qanday javob bilan qabul qiladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/2-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist shikoyatni qanday javob bilan qabul qiladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/2-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist shikoyatni qanday javob bilan qabul qiladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/2-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist shikoyatni yozib oladimi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/3-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist shikoyatni yozib oladimi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/3-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist shikoyatni yozib oladimi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/3-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist shikoyatni yozib oladimi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/3-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionist muammoni qanday hal qiladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/4-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionist muammoni qanday hal qiladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/4-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionist muammoni qanday hal qiladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/4-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionist muammoni qanday hal qiladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/4-savol/e.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm shikoyat bilan ishlashni ko‘rsatadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/5-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm shikoyat bilan ishlashni ko‘rsatadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/5-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm shikoyat bilan ishlashni ko‘rsatadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/5-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm shikoyat bilan ishlashni ko‘rsatadi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/5-savol/e.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist mehmonni qanday tinchlantiradi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/6-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist mehmonni qanday tinchlantiradi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/6-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist mehmonni qanday tinchlantiradi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/6-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.3 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist mehmonni qanday tinchlantiradi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.3%20mavzu/6-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist shikoyat eshitganda birinchi nima qiladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/1-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist shikoyat eshitganda birinchi nima qiladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/1-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist shikoyat eshitganda birinchi nima qiladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/1-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist shikoyat eshitganda birinchi nima qiladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/1-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist shikoyatga qanday javob beradi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/2-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist shikoyatga qanday javob beradi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/2-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist shikoyatga qanday javob beradi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/2-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist shikoyatga qanday javob beradi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/2-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist shikoyat uchun nima deydi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/3-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist shikoyat uchun nima deydi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/3-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist shikoyat uchun nima deydi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/3-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist shikoyat uchun nima deydi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/3-savol/e.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionist professional so‘z birikmasi qanday?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/4-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionist professional so‘z birikmasi qanday?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/4-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionist professional so‘z birikmasi qanday?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/4-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionist professional so‘z birikmasi qanday?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/4-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional javobni ko‘rsatadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/5-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional javobni ko‘rsatadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/5-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional javobni ko‘rsatadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/5-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional javobni ko‘rsatadi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/5-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist qanday ohangda gapiradi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/6-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist qanday ohangda gapiradi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/6-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist qanday ohangda gapiradi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/6-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "5-modul 5.4 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist qanday ohangda gapiradi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/5-modul%205.4%20mavzu/6-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "6-modul 6.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist mijoz muammosini qanday tinglaydi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.1%20mavzu/1-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist mijoz muammosini qanday tinglaydi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.1%20mavzu/1-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist mijoz muammosini qanday tinglaydi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.1%20mavzu/1-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist mijoz muammosini qanday tinglaydi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.1%20mavzu/1-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "6-modul 6.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "Tinglash vaqtida receptionistning yuz ifodasi qanday?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.1%20mavzu/2-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "Tinglash vaqtida receptionistning yuz ifodasi qanday?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.1%20mavzu/2-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "Tinglash vaqtida receptionistning yuz ifodasi qanday?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.1%20mavzu/2-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "6-modul 6.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "Tinglash vaqtida receptionistning yuz ifodasi qanday?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.1%20mavzu/2-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "6-modul 6.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist nima qiladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.1%20mavzu/3-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist nima qiladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.1%20mavzu/3-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist nima qiladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.1%20mavzu/3-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist nima qiladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.1%20mavzu/3-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "6-modul 6.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist muammo eshitganda qanday javob beradi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.1%20mavzu/6-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist muammo eshitganda qanday javob beradi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.1%20mavzu/6-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "6-modul 6.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist muammo eshitganda qanday javob beradi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.1%20mavzu/6-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist muammo eshitganda qanday javob beradi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.1%20mavzu/6-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist muammo uchun qanday javob beradi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/1-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist muammo uchun qanday javob beradi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/1-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist muammo uchun qanday javob beradi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/1-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist muammo uchun qanday javob beradi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/1-savol/e.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist muammoni qanday hal qiladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/2-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist muammoni qanday hal qiladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/2-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist muammoni qanday hal qiladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/2-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist muammoni qanday hal qiladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/2-savol/e.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist qanday yuz ifodasi bilan gapiradi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/3-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist qanday yuz ifodasi bilan gapiradi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/3-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist qanday yuz ifodasi bilan gapiradi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/3-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist qanday yuz ifodasi bilan gapiradi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/3-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional kechirim so‘rashni ko‘rsatadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/5-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional kechirim so‘rashni ko‘rsatadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/5-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional kechirim so‘rashni ko‘rsatadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/5-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional kechirim so‘rashni ko‘rsatadi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/5-savol/e.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist muammoni hal qilish uchun nima qiladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/6-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist muammoni hal qilish uchun nima qiladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/6-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist muammoni hal qilish uchun nima qiladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/6-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "6-modul 6.2 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist muammoni hal qilish uchun nima qiladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/6-modul%206.2%20mavzu/6-savol/e.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist check-out jarayonida nima qiladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/1-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist check-out jarayonida nima qiladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/1-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist check-out jarayonida nima qiladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/1-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist check-out jarayonida nima qiladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/1-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "Check-out paytida receptionist qanday ohangda gapiradi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/2-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "Check-out paytida receptionist qanday ohangda gapiradi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/2-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "Check-out paytida receptionist qanday ohangda gapiradi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/2-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "Check-out paytida receptionist qanday ohangda gapiradi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/2-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist mehmondan nima oladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/3-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist mehmondan nima oladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/3-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist mehmondan nima oladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/3-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist mehmondan nima oladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/3-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "4-savol",
+    "question_text": "Check-out jarayonida qanday yuz ifoda bo‘ladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/4-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "4-savol",
+    "question_text": "Check-out jarayonida qanday yuz ifoda bo‘ladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/4-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "4-savol",
+    "question_text": "Check-out jarayonida qanday yuz ifoda bo‘ladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/4-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "4-savol",
+    "question_text": "Check-out jarayonida qanday yuz ifoda bo‘ladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/4-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional check-outni ko‘rsatadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/5-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional check-outni ko‘rsatadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/5-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional check-outni ko‘rsatadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/5-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional check-outni ko‘rsatadi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/5-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist check-outda qanday xizmat ko‘rsatadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/6-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist check-outda qanday xizmat ko‘rsatadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/6-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist check-outda qanday xizmat ko‘rsatadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/6-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist check-outda qanday xizmat ko‘rsatadi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.1%20mavzu/6-savol/e.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.2 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist to‘lovni qanday qabul qiladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.2%20mavzu/1-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.2 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist to‘lovni qanday qabul qiladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.2%20mavzu/1-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.2 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist to‘lovni qanday qabul qiladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.2%20mavzu/1-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.2 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist to‘lovni qanday qabul qiladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.2%20mavzu/1-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.2 mavzu",
+    "savol": "2-savol",
+    "question_text": "To‘lov vaqtida qanday ohangda gapiradi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.2%20mavzu/2-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.2 mavzu",
+    "savol": "2-savol",
+    "question_text": "To‘lov vaqtida qanday ohangda gapiradi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.2%20mavzu/2-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.2 mavzu",
+    "savol": "2-savol",
+    "question_text": "To‘lov vaqtida qanday ohangda gapiradi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.2%20mavzu/2-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.2 mavzu",
+    "savol": "2-savol",
+    "question_text": "To‘lov vaqtida qanday ohangda gapiradi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.2%20mavzu/2-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.2 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist to‘lovdan keyin nima qiladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.2%20mavzu/6-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.2 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist to‘lovdan keyin nima qiladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.2%20mavzu/6-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.2 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist to‘lovdan keyin nima qiladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.2%20mavzu/6-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.2 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist to‘lovdan keyin nima qiladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.2%20mavzu/6-savol/e.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist hisob-kitobni qanday tushuntiradi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/1-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist hisob-kitobni qanday tushuntiradi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/1-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist hisob-kitobni qanday tushuntiradi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/1-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist hisob-kitobni qanday tushuntiradi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/1-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionistning ohangi qanday bo‘ladi?",
+    "option_text": "20250903_1434_Welcoming Hotel Receptionist_simple_compose_01k47ethg3fqs9dbygbn6qax0r",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/2-savol/20250903_1434_Welcoming%20Hotel%20Receptionist_simple_compose_01k47ethg3fqs9dbygbn6qax0r.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionistning ohangi qanday bo‘ladi?",
+    "option_text": "20250903_1435_Angry Hotel Receptionist_simple_compose_01k47etsr3f7est6dzk1nqbjmm",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/2-savol/20250903_1435_Angry%20Hotel%20Receptionist_simple_compose_01k47etsr3f7est6dzk1nqbjmm.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionistning ohangi qanday bo‘ladi?",
+    "option_text": "20250903_1436_Aloof Hotel Receptionist_simple_compose_01k47ewej7e3va9sv7n02bytyj",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/2-savol/20250903_1436_Aloof%20Hotel%20Receptionist_simple_compose_01k47ewej7e3va9sv7n02bytyj.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionistning ohangi qanday bo‘ladi?",
+    "option_text": "20250903_1437_Silent Hotel Receptionist_simple_compose_01k47ez73tf7n9yahw8e7tpr01",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/2-savol/20250903_1437_Silent%20Hotel%20Receptionist_simple_compose_01k47ez73tf7n9yahw8e7tpr01.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "3-savol",
+    "question_text": "Hisobni tushuntirganda receptionist nima qiladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/3-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "3-savol",
+    "question_text": "Hisobni tushuntirganda receptionist nima qiladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/3-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "3-savol",
+    "question_text": "Hisobni tushuntirganda receptionist nima qiladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/3-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "3-savol",
+    "question_text": "Hisobni tushuntirganda receptionist nima qiladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/3-savol/e.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionist qanday yuz ifoda bilan tushuntiradi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/4-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionist qanday yuz ifoda bilan tushuntiradi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/4-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionist qanday yuz ifoda bilan tushuntiradi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/4-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionist qanday yuz ifoda bilan tushuntiradi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/4-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional hisob-kitob tushuntirishni ko‘rsatadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/5-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional hisob-kitob tushuntirishni ko‘rsatadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/5-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional hisob-kitob tushuntirishni ko‘rsatadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/5-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional hisob-kitob tushuntirishni ko‘rsatadi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/5-savol/e.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist qanday gapdan foydalanadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/6-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist qanday gapdan foydalanadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/6-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist qanday gapdan foydalanadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/6-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.3 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist qanday gapdan foydalanadi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.3%20mavzu/6-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist mehmon bilan qanday xayrlashadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/1-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist mehmon bilan qanday xayrlashadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/1-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist mehmon bilan qanday xayrlashadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/1-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist mehmon bilan qanday xayrlashadi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/1-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionistning ohangi qanday bo‘ladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/2-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionistning ohangi qanday bo‘ladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/2-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionistning ohangi qanday bo‘ladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/2-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionistning ohangi qanday bo‘ladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/2-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist minnatdorchilikni qanday bildiradi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/3-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist minnatdorchilikni qanday bildiradi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/3-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist minnatdorchilikni qanday bildiradi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/3-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist minnatdorchilikni qanday bildiradi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/3-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "4-savol",
+    "question_text": "Xayrlashishda qanday yuz ifoda bo‘ladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/4-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "4-savol",
+    "question_text": "Xayrlashishda qanday yuz ifoda bo‘ladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/4-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "4-savol",
+    "question_text": "Xayrlashishda qanday yuz ifoda bo‘ladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/4-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "4-savol",
+    "question_text": "Xayrlashishda qanday yuz ifoda bo‘ladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/4-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist qanday so‘zdan foydalanadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/6-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist qanday so‘zdan foydalanadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/6-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist qanday so‘zdan foydalanadi?",
+    "option_text": "c",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/6-savol/c.png",
+    "is_correct": false
+  },
+  {
+    "module": "7-modul 7.4 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist qanday so‘zdan foydalanadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/7-modul%207.4%20mavzu/6-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "“Welcome” iborasi qachon ishlatiladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/1-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "“Welcome” iborasi qachon ishlatiladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/1-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "“Welcome” iborasi qachon ishlatiladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/1-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "“Welcome” iborasi qachon ishlatiladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/1-savol/e.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "“How can I help you?” nimani anglatadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/2-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "“How can I help you?” nimani anglatadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/2-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "“How can I help you?” nimani anglatadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/2-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "“How can I help you?” nimani anglatadi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/2-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "“Please” qachon ishlatiladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/3-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "“Please” qachon ishlatiladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/3-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "“Please” qachon ishlatiladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/3-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "“Please” qachon ishlatiladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/3-savol/e.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "4-savol",
+    "question_text": "“Thank you” qaysi holatda ishlatiladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/4-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "4-savol",
+    "question_text": "“Thank you” qaysi holatda ishlatiladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/4-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "4-savol",
+    "question_text": "“Thank you” qaysi holatda ishlatiladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/4-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "4-savol",
+    "question_text": "“Thank you” qaysi holatda ishlatiladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/4-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "5-savol",
+    "question_text": "“Goodbye” qaysi vaziyatda ishlatiladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/5-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "5-savol",
+    "question_text": "“Goodbye” qaysi vaziyatda ishlatiladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/5-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "5-savol",
+    "question_text": "“Goodbye” qaysi vaziyatda ishlatiladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/5-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "5-savol",
+    "question_text": "“Goodbye” qaysi vaziyatda ishlatiladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/5-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist qaysi iborani ishlatishi kerak?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/6-savol/a.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist qaysi iborani ishlatishi kerak?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/6-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist qaysi iborani ishlatishi kerak?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/6-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist qaysi iborani ishlatishi kerak?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.1%20mavzu/6-savol/e.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.2 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist mehmonni qanday kutib oladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.2%20mavzu/1-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.2 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist mehmonni qanday kutib oladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.2%20mavzu/1-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.2 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist mehmonni qanday kutib oladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.2%20mavzu/1-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.2 mavzu",
+    "savol": "2-savol",
+    "question_text": "Mehmon so‘raydi: “Do you have a reservation?” Receptionist qanday javob beradi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.2%20mavzu/2-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.2 mavzu",
+    "savol": "2-savol",
+    "question_text": "Mehmon so‘raydi: “Do you have a reservation?” Receptionist qanday javob beradi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.2%20mavzu/2-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.2 mavzu",
+    "savol": "2-savol",
+    "question_text": "Mehmon so‘raydi: “Do you have a reservation?” Receptionist qanday javob beradi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.2%20mavzu/2-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.2 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist mehmondan ma’lumot so‘raydi:",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.2%20mavzu/3-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.2 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist mehmondan ma’lumot so‘raydi:",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.2%20mavzu/3-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.2 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist mehmondan ma’lumot so‘raydi:",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.2%20mavzu/3-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.2 mavzu",
+    "savol": "4-savol",
+    "question_text": "Mehmon: “Thank you.” Receptionist qanday javob beradi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.2%20mavzu/4-savol/a.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.2 mavzu",
+    "savol": "4-savol",
+    "question_text": "Mehmon: “Thank you.” Receptionist qanday javob beradi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.2%20mavzu/4-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.2 mavzu",
+    "savol": "4-savol",
+    "question_text": "Mehmon: “Thank you.” Receptionist qanday javob beradi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.2%20mavzu/4-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.2 mavzu",
+    "savol": "5-savol",
+    "question_text": "Receptionist xizmatni taklif qiladi:",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.2%20mavzu/5-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.2 mavzu",
+    "savol": "5-savol",
+    "question_text": "Receptionist xizmatni taklif qiladi:",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.2%20mavzu/5-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.2 mavzu",
+    "savol": "5-savol",
+    "question_text": "Receptionist xizmatni taklif qiladi:",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.2%20mavzu/5-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.2 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist xizmatni tasdiqlaydi:",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.2%20mavzu/6-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.2 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist xizmatni tasdiqlaydi:",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.2%20mavzu/6-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.2 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist xizmatni tasdiqlaydi:",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.2%20mavzu/6-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.3 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist mehmonning ismini qanday so‘raydi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.3%20mavzu/1-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.3 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist mehmonning ismini qanday so‘raydi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.3%20mavzu/1-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.3 mavzu",
+    "savol": "1-savol",
+    "question_text": "Receptionist mehmonning ismini qanday so‘raydi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.3%20mavzu/1-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.3 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist bandlikni tekshirayotganda nima deydi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.3%20mavzu/2-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.3 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist bandlikni tekshirayotganda nima deydi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.3%20mavzu/2-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.3 mavzu",
+    "savol": "2-savol",
+    "question_text": "Receptionist bandlikni tekshirayotganda nima deydi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.3%20mavzu/2-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.3 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist yordam taklif qilayotganda nima deydi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.3%20mavzu/3-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.3 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist yordam taklif qilayotganda nima deydi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.3%20mavzu/3-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.3 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist yordam taklif qilayotganda nima deydi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.3%20mavzu/3-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.3 mavzu",
+    "savol": "4-savol",
+    "question_text": "Mehmon: “Where is my room?” Receptionist qanday javob beradi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.3%20mavzu/4-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.3 mavzu",
+    "savol": "4-savol",
+    "question_text": "Mehmon: “Where is my room?” Receptionist qanday javob beradi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.3%20mavzu/4-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.3 mavzu",
+    "savol": "4-savol",
+    "question_text": "Mehmon: “Where is my room?” Receptionist qanday javob beradi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.3%20mavzu/4-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.3 mavzu",
+    "savol": "5-savol",
+    "question_text": "Receptionist xizmatni tasdiqlaydi:",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.3%20mavzu/5-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.3 mavzu",
+    "savol": "5-savol",
+    "question_text": "Receptionist xizmatni tasdiqlaydi:",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.3%20mavzu/5-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.3 mavzu",
+    "savol": "5-savol",
+    "question_text": "Receptionist xizmatni tasdiqlaydi:",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.3%20mavzu/5-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.3 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist muammoni eshitganda nima deydi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.3%20mavzu/6-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.3 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist muammoni eshitganda nima deydi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.3%20mavzu/6-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.3 mavzu",
+    "savol": "6-savol",
+    "question_text": "Receptionist muammoni eshitganda nima deydi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.3%20mavzu/6-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.4 mavzu",
+    "savol": "1-savol",
+    "question_text": "Qaysi rasm kutib olishni ko‘rsatadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.4%20mavzu/1-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.4 mavzu",
+    "savol": "1-savol",
+    "question_text": "Qaysi rasm kutib olishni ko‘rsatadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.4%20mavzu/1-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.4 mavzu",
+    "savol": "1-savol",
+    "question_text": "Qaysi rasm kutib olishni ko‘rsatadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.4%20mavzu/1-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.4 mavzu",
+    "savol": "2-savol",
+    "question_text": "Qaysi rasm yordam taklif qilishni ko‘rsatadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.4%20mavzu/2-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.4 mavzu",
+    "savol": "2-savol",
+    "question_text": "Qaysi rasm yordam taklif qilishni ko‘rsatadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.4%20mavzu/2-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.4 mavzu",
+    "savol": "2-savol",
+    "question_text": "Qaysi rasm yordam taklif qilishni ko‘rsatadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.4%20mavzu/2-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.4 mavzu",
+    "savol": "3-savol",
+    "question_text": "Qaysi rasm hisob-kitobni tushuntirishni ko‘rsatadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.4%20mavzu/3-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.4 mavzu",
+    "savol": "3-savol",
+    "question_text": "Qaysi rasm hisob-kitobni tushuntirishni ko‘rsatadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.4%20mavzu/3-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.4 mavzu",
+    "savol": "3-savol",
+    "question_text": "Qaysi rasm hisob-kitobni tushuntirishni ko‘rsatadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.4%20mavzu/3-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.4 mavzu",
+    "savol": "4-savol",
+    "question_text": "Qaysi rasm uzr so‘rashni ko‘rsatadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.4%20mavzu/4-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.4 mavzu",
+    "savol": "4-savol",
+    "question_text": "Qaysi rasm uzr so‘rashni ko‘rsatadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.4%20mavzu/4-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.4 mavzu",
+    "savol": "4-savol",
+    "question_text": "Qaysi rasm uzr so‘rashni ko‘rsatadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.4%20mavzu/4-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.4 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm xayrlashishni ko‘rsatadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.4%20mavzu/5-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.4 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm xayrlashishni ko‘rsatadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.4%20mavzu/5-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "8-modul 8.4 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm xayrlashishni ko‘rsatadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.4%20mavzu/5-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.4 mavzu",
+    "savol": "6-savol",
+    "question_text": "Qaysi rasm xizmat madaniyatini ko‘rsatadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.4%20mavzu/6-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.4 mavzu",
+    "savol": "6-savol",
+    "question_text": "Qaysi rasm xizmat madaniyatini ko‘rsatadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.4%20mavzu/6-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.4 mavzu",
+    "savol": "6-savol",
+    "question_text": "Qaysi rasm xizmat madaniyatini ko‘rsatadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.4%20mavzu/6-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "8-modul 8.4 mavzu",
+    "savol": "6-savol",
+    "question_text": "Qaysi rasm xizmat madaniyatini ko‘rsatadi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/8-modul%208.4%20mavzu/6-savol/e.png",
+    "is_correct": true
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "Qaysi rasm receptionistning professional formasini ko‘rsatadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/1-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "Qaysi rasm receptionistning professional formasini ko‘rsatadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/1-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "Qaysi rasm receptionistning professional formasini ko‘rsatadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/1-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "1-savol",
+    "question_text": "Qaysi rasm receptionistning professional formasini ko‘rsatadi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/1-savol/e.png",
+    "is_correct": true
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "Qaysi rasm gigiena va ozodalikka mos?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/2-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "Qaysi rasm gigiena va ozodalikka mos?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/2-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "Qaysi rasm gigiena va ozodalikka mos?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/2-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "2-savol",
+    "question_text": "Qaysi rasm gigiena va ozodalikka mos?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/2-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist nima uchun forma kiyadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/3-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist nima uchun forma kiyadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/3-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist nima uchun forma kiyadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/3-savol/d.png",
+    "is_correct": true
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "3-savol",
+    "question_text": "Receptionist nima uchun forma kiyadi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/3-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionistning ohangi qanday bo‘ladi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/4-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionistning ohangi qanday bo‘ladi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/4-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionistning ohangi qanday bo‘ladi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/4-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "4-savol",
+    "question_text": "Receptionistning ohangi qanday bo‘ladi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/4-savol/e.png",
+    "is_correct": false
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional gigiena va ozodalikka mos?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/5-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional gigiena va ozodalikka mos?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/5-savol/b.png",
+    "is_correct": true
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional gigiena va ozodalikka mos?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/5-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "5-savol",
+    "question_text": "Qaysi rasm professional gigiena va ozodalikka mos?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/5-savol/e.png",
+    "is_correct": true
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Qaysi rasm receptionistni professional holatda ko‘rsatadi?",
+    "option_text": "a",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/6-savol/a.png",
+    "is_correct": true
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Qaysi rasm receptionistni professional holatda ko‘rsatadi?",
+    "option_text": "b",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/6-savol/b.png",
+    "is_correct": false
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Qaysi rasm receptionistni professional holatda ko‘rsatadi?",
+    "option_text": "d",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/6-savol/d.png",
+    "is_correct": false
+  },
+  {
+    "module": "9-modul 9.1 mavzu",
+    "savol": "6-savol",
+    "question_text": "Qaysi rasm receptionistni professional holatda ko‘rsatadi?",
+    "option_text": "e",
+    "image_url": "https://pub-2323b0f94bf24efa8844aef22423eade.r2.dev/9-modul%209.1%20mavzu/6-savol/e.png",
+    "is_correct": false
+  }
+]
