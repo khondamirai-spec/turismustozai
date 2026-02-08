@@ -67,10 +67,10 @@ export default function QuizClient({ questions, categoryName }: QuizClientProps)
         return (
             <div className="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white p-6">
                 <div className="bg-white/10 p-8 rounded-2xl border border-white/20 text-center max-w-md">
-                    <h2 className="text-2xl font-bold mb-4">No Questions Found</h2>
-                    <p className="text-indigo-100 mb-6">Sorry, there are no questions available for this category yet.</p>
+                    <h2 className="text-2xl font-bold mb-4">Savollar topilmadi</h2>
+                    <p className="text-indigo-100 mb-6">Kechirasiz, ushbu toifa uchun hali savollar mavjud emas.</p>
                     <Link href="/text-quiz" className="px-6 py-3 bg-white text-indigo-600 rounded-xl font-bold hover:bg-indigo-50 transition-colors">
-                        Go Back
+                        Orqaga qaytish
                     </Link>
                 </div>
             </div>
@@ -86,20 +86,20 @@ export default function QuizClient({ questions, categoryName }: QuizClientProps)
                             <Trophy size={48} className="text-white" />
                         </div>
                     </div>
-                    <h2 className="text-3xl font-extrabold mb-2">Quiz Completed!</h2>
-                    <p className="text-indigo-100 mb-6">You successfully finished the {categoryName} quiz.</p>
+                    <h2 className="text-3xl font-extrabold mb-2">Viktorina yakunlandi!</h2>
+                    <p className="text-indigo-100 mb-6">Siz {categoryName} viktorinasini muvaffaqiyatli yakunladingiz.</p>
 
                     <div className="bg-white/10 rounded-xl p-4 mb-8">
-                        <p className="text-sm uppercase tracking-widest text-indigo-200 mb-1">Your Score</p>
+                        <p className="text-sm uppercase tracking-widest text-indigo-200 mb-1">Sizning natijangiz</p>
                         <p className="text-5xl font-black">{score} <span className="text-2xl text-white/50">/ {questions.length}</span></p>
                     </div>
 
                     <div className="flex flex-col gap-3">
                         <button onClick={restartQuiz} className="w-full flex items-center justify-center gap-2 bg-white text-indigo-600 font-bold py-3 rounded-xl hover:bg-indigo-50 transition-colors">
-                            <RefreshCw size={20} /> Restart Quiz
+                            <RefreshCw size={20} /> Viktorinani qayta boshlash
                         </button>
                         <Link href="/text-quiz" className="w-full flex items-center justify-center gap-2 bg-indigo-700/50 hover:bg-indigo-700 text-white font-bold py-3 rounded-xl transition-colors border border-indigo-500/30">
-                            <ArrowLeft size={20} /> Choose Another Topic
+                            <ArrowLeft size={20} /> Boshqa mavzu tanlash
                         </Link>
                     </div>
                 </div>
@@ -126,13 +126,13 @@ export default function QuizClient({ questions, categoryName }: QuizClientProps)
             {/* Progress */}
             <div className="mb-8 flex justify-between items-center px-2">
                 <div className="flex flex-col">
-                    <span className="text-[10px] uppercase tracking-widest text-indigo-200 mb-1">Question</span>
+                    <span className="text-[10px] uppercase tracking-widest text-indigo-200 mb-1">Savol</span>
                     <span className="text-2xl font-black">
                         {currentIndex + 1} <span className="text-white/40 text-lg">/ {questions.length}</span>
                     </span>
                 </div>
                 <div className="flex flex-col items-end">
-                    <span className="text-[10px] uppercase tracking-widest text-indigo-200 mb-1">Score</span>
+                    <span className="text-[10px] uppercase tracking-widest text-indigo-200 mb-1">Natija</span>
                     <span className="text-2xl font-black text-white">{score}</span>
                 </div>
             </div>
@@ -204,7 +204,7 @@ export default function QuizClient({ questions, categoryName }: QuizClientProps)
                                 : "bg-white/10 border border-white/20 text-indigo-300 cursor-not-allowed opacity-50"}
             `}
                     >
-                        {currentIndex === questions.length - 1 ? "Finish Quiz" : "Next Question"}
+                        {currentIndex === questions.length - 1 ? "Yakunlash" : "Keyingi savol"}
                     </button>
                 </div>
             </div>

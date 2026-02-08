@@ -16,7 +16,7 @@ export default async function TextQuizPage() {
         return (
             <div className="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white">
                 <div className="bg-white/10 p-6 rounded-xl border border-white/20">
-                    <p>Error loading topics. Please try again later.</p>
+                    <p>Mavzularni yuklashda xatolik yuz berdi. Iltimos, keyinroq qayta urinib ko'ring.</p>
                 </div>
             </div>
         );
@@ -35,6 +35,18 @@ export default async function TextQuizPage() {
         return a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' });
     });
 
+    const moduleImages: { [key: string]: string } = {
+        "1-modul": "/hf_20260208_062117_7d6ff0b8-9c5d-4073-a86a-4d602a10d6da.jpeg",
+        "2-modul": "/hf_20260208_062158_0e0ac1d5-d23f-4f4a-be50-a47dcd53262f.jpeg",
+        "3-modul": "/hf_20260208_062209_4aa4555d-a2fd-4032-8785-f8a304e250a3.jpeg",
+        "4-modul": "/hf_20260208_062217_bd7986b6-b294-4e78-88bb-42d10ddf93a7.jpeg",
+        "5-modul": "/hf_20260208_062229_e3996625-d80a-4970-a208-18c93b4169a9.jpeg",
+        "6-modul": "/hf_20260208_062238_71750a2b-955a-4911-bb22-a27a80ef2dda.jpeg",
+        "7-modul": "/hf_20260208_062243_be95b44b-5223-43c7-b948-d3f05b0eb523.jpeg",
+        "8-modul": "/hf_20260208_062250_39b67f5a-cbc9-49bd-b2f8-325228821e2c.jpeg",
+        "9-modul": "/hf_20260208_062258_e748dd01-da56-4da3-a6d1-eea87e396774.jpeg",
+    };
+
     const categories = uniqueMainModules.map((moduleName) => {
         // Count questions for this MAIN module (matches any sub-module starting with this name)
         const count = questions.filter(q => q.module.toLowerCase().startsWith(moduleName.toLowerCase())).length;
@@ -42,8 +54,8 @@ export default async function TextQuizPage() {
         return {
             id: moduleName,
             name: moduleName.toUpperCase(), // Display as "1-MODUL"
-            description: `${count} Questions`,
-            image_url: null
+            description: `${count} ta savol`,
+            image_url: moduleImages[moduleName.toLowerCase()] || null
         };
     });
 
@@ -52,16 +64,16 @@ export default async function TextQuizPage() {
             <header className="flex items-center mb-8">
                 <Link href="/" className="flex items-center text-indigo-100 hover:text-white transition-colors bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
                     <ArrowLeft size={18} className="mr-2" />
-                    <span className="font-semibold text-sm">Back</span>
+                    <span className="font-semibold text-sm">Orqaga</span>
                 </Link>
             </header>
 
             <div className="mb-8">
                 <h1 className="text-3xl font-extrabold mb-2 text-white drop-shadow-md">
-                    Choose Topic
+                    Mavzuni tanlang
                 </h1>
                 <p className="text-indigo-100 text-sm opacity-80">
-                    Select a category to start your challenge
+                    Boshlash uchun toifani tanlang
                 </p>
             </div>
 
@@ -80,11 +92,8 @@ export default async function TextQuizPage() {
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-4">
-                                <h3 className="text-white font-bold text-lg leading-tight shadow-sm mb-1">
-                                    {category.name}
-                                </h3>
                                 {category.description && (
-                                    <p className="text-xs text-gray-300 line-clamp-2 opacity-80">
+                                    <p className="text-sm font-medium text-gray-100 line-clamp-2 drop-shadow-sm">
                                         {category.description}
                                     </p>
                                 )}
@@ -95,7 +104,7 @@ export default async function TextQuizPage() {
             </div>
             {(!categories || categories.length === 0) && (
                 <div className="text-center text-indigo-200 mt-10">
-                    No categories found.
+                    Hech qanday toifa topilmadi.
                 </div>
             )}
         </div>

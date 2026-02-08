@@ -35,11 +35,11 @@ export default async function QuizPage({ params }: PageProps) {
 
     if (error) {
         console.error("Error fetching quiz data:", error);
-        return <div className="p-6 text-white">Error loading quiz.</div>;
+        return <div className="p-6 text-white">Viktorinani yuklashda xatolik.</div>;
     }
 
     if (!questionsData || questionsData.length === 0) {
-        return <div className="p-6 text-white">No questions found for this topic.</div>;
+        return <div className="p-6 text-white">Ushbu mavzu bo'yicha savollar topilmadi.</div>;
     }
 
     // 3. Map to QuizClient format

@@ -6,10 +6,10 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-600 flex flex-col items-center justify-center p-6 font-sans text-white">
       <header className="mb-12 text-center">
         <h1 className="text-5xl font-extrabold mb-2 tracking-tight drop-shadow-md">
-          Tourism Quiz
+          Turizm Viktorinasi
         </h1>
         <p className="text-indigo-100 text-lg font-medium tracking-wide">
-          Choose your challenge
+          O'z sinovungizni tanlang
         </p>
       </header>
 
@@ -20,8 +20,8 @@ export default function Home() {
               <BookOpen size={28} />
             </div>
             <div className="flex-1 text-left">
-              <h2 className="text-xl font-bold">Text Quiz</h2>
-              <p className="text-indigo-100 text-sm opacity-80">Identify landmarks</p>
+              <h2 className="text-xl font-bold">Matnli Viktorina</h2>
+              <p className="text-indigo-100 text-sm opacity-80">Madaniy meroslarni aniqlang</p>
             </div>
             <div className="text-white/60 group-hover:text-white transition-colors">
               &rarr;
@@ -35,8 +35,8 @@ export default function Home() {
               <Mic size={28} />
             </div>
             <div className="flex-1 text-left">
-              <h2 className="text-xl font-bold">Voice Quiz</h2>
-              <p className="text-indigo-100 text-sm opacity-80">Speak your answers</p>
+              <h2 className="text-xl font-bold">Ovozli Viktorina</h2>
+              <p className="text-indigo-100 text-sm opacity-80">Javoblaringizni ayting</p>
             </div>
             <div className="text-white/60 group-hover:text-white transition-colors">
               &rarr;
@@ -46,7 +46,7 @@ export default function Home() {
       </main>
 
       <footer className="absolute bottom-6 text-indigo-200 text-xs opacity-60">
-        © 2026 Tourism Quiz
+        © 2026 Turizm Viktorinasi
       </footer>
     </div>
   );
