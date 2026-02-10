@@ -47,11 +47,12 @@ export default async function QuizPage({ params }: PageProps) {
         id: q.id,
         question_text: q.question_text,
         options: q.quiz_options?.map(o => {
-            // ALWAYS prioritize extracting filename from URL as label if it exists
-            // This ensures modules 5-9 also use the clean filename descriptions
-            let label = "";
+            // Priority:
+            // 1. Use option_text from database if it exists
+            // 2. Fallback to extracting from URL if option_text is empty
+            let label = o.option_text || "";
 
-            if (o.image_url) {
+            if (!label && o.image_url) {
                 try {
                     // Split by ? to remove query params, then by / to get path segments
                     const cleanUrl = o.image_url.split('?')[0];
@@ -76,11 +77,6 @@ export default async function QuizPage({ params }: PageProps) {
                 } catch (e) {
                     console.error("Error parsing image URL for label:", e);
                 }
-            }
-
-            // Fallback to database text if URL extraction failed or result was empty
-            if (!label) {
-                label = o.option_text || "";
             }
 
             return {

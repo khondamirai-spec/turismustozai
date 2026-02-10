@@ -1,9 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ArrowLeft, CheckCircle, XCircle, Trophy, RefreshCw } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { supabase } from "@/utils/supabaseClient";
 
 interface Option {
     id: number;
@@ -30,6 +31,41 @@ export default function QuizClient({ questions, categoryName }: QuizClientProps)
     const [selectedOptionId, setSelectedOptionId] = useState<number | null>(null);
     const [isAnswered, setIsAnswered] = useState(false);
     const [isQuizFinished, setIsQuizFinished] = useState(false);
+
+    useEffect(() => {
+        // Subscribe to changes in quiz_options and quiz_questions
+        const channel = supabase
+            .channel('quiz_db_changes')
+            .on(
+                'postgres_changes',
+                {
+                    event: '*',
+                    schema: 'public',
+                    table: 'quiz_options'
+                },
+                () => {
+                    console.log('Quiz options updated, refreshing...');
+                    router.refresh();
+                }
+            )
+            .on(
+                'postgres_changes',
+                {
+                    event: '*',
+                    schema: 'public',
+                    table: 'quiz_questions'
+                },
+                () => {
+                    console.log('Quiz questions updated, refreshing...');
+                    router.refresh();
+                }
+            )
+            .subscribe();
+
+        return () => {
+            supabase.removeChannel(channel);
+        };
+    }, [router]);
 
     const currentQuestion = questions[currentIndex];
     // Ensure options are shuffled or fixed? User didn't specify. Assuming fixed for now.
@@ -117,8 +153,21 @@ export default function QuizClient({ questions, categoryName }: QuizClientProps)
                 >
                     <ArrowLeft size={18} className="mr-1" />
                 </Link>
-                <div className="font-bold text-sm bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20 line-clamp-1 max-w-[150px]">
-                    {categoryName}
+                <div className="flex items-center gap-2">
+                    <div className="font-bold text-sm bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20 line-clamp-1 max-w-[150px]">
+                        {categoryName}
+                    </div>
+                    <button
+                        onClick={() => {
+                            router.refresh();
+                            // If router.refresh() isn't enough for Vercel, a full reload will definitely do it
+                            // but usually it is enough.
+                        }}
+                        className="p-2 bg-white/10 hover:bg-white/20 rounded-full border border-white/20 transition-all active:rotate-180 duration-500"
+                        title="Ma'lumotlarni yangilash"
+                    >
+                        <RefreshCw size={16} />
+                    </button>
                 </div>
                 <div className="w-8"></div>
             </header>
