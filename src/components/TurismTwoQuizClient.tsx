@@ -146,7 +146,7 @@ export default function TurismTwoQuizClient({ questions, themeName }: TurismTwoQ
 
             {/* Question */}
             <div className="flex-1 flex flex-col max-w-2xl mx-auto w-full">
-                <h2 className="text-xl md:text-2xl font-black mb-8 text-center leading-tight text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)] min-h-[100px] flex items-center justify-center">
+                <h2 className="text-xl md:text-2xl font-extrabold mb-8 text-center leading-tight text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)] min-h-[100px] flex items-center justify-center">
                     {currentQuestion.question_text}
                 </h2>
 
@@ -176,9 +176,9 @@ export default function TurismTwoQuizClient({ questions, themeName }: TurismTwoQ
                                 disabled={isAnswered}
                                 className={cardClasses}
                             >
-                                <div className="w-full aspect-square relative rounded-xl overflow-hidden mb-3 shrink-0">
+                                <div className="w-full aspect-[4/3] relative rounded-xl overflow-hidden mb-3 shrink-0 bg-white/5">
                                     {option.image_url ? (
-                                        <img src={option.image_url} alt={option.label} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                                        <img src={option.image_url} alt={option.label} className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
                                     ) : (
                                         <div className="w-full h-full bg-indigo-900/40 flex items-center justify-center text-white/20 font-bold text-4xl">
                                             ?
@@ -197,7 +197,7 @@ export default function TurismTwoQuizClient({ questions, themeName }: TurismTwoQ
                                     )}
                                 </div>
                                 {option.label && (
-                                    <span className="font-bold text-white text-[11px] md:text-sm uppercase tracking-wide text-center line-clamp-2 leading-tight min-h-[2.5em] flex items-center justify-center w-full px-1">
+                                    <span className="font-semibold text-white text-[11px] md:text-sm tracking-wide text-center line-clamp-3 leading-tight min-h-[2.5em] flex items-center justify-center w-full px-1">
                                         {option.label}
                                     </span>
                                 )}

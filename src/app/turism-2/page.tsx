@@ -43,7 +43,7 @@ export default async function TurismTwoPage() {
             </header>
 
             <div className="mb-8 px-2">
-                <h1 className="text-3xl font-black mb-2 text-white drop-shadow-md tracking-tight">
+                <h1 className="text-3xl font-extrabold mb-2 text-white drop-shadow-md tracking-tight">
                     Turizm Reception 2.0
                 </h1>
                 <p className="text-indigo-100 text-sm opacity-80">
@@ -62,7 +62,7 @@ export default async function TurismTwoPage() {
                             <Hotel size={24} />
                         </div>
                         <div className="flex-1">
-                            <h2 className="text-xl font-bold mb-0.5 tracking-tight">{theme}</h2>
+                            <h2 className="text-xl font-semibold mb-0.5 tracking-tight">{theme}</h2>
                             <p className="text-indigo-100 text-[12px] font-medium opacity-80 leading-tight">
                                 {themeDescriptions[theme] || "Keyingi mavzu uchun savollar"}
                             </p>
