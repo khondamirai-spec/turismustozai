@@ -157,17 +157,6 @@ export default function QuizClient({ questions, categoryName }: QuizClientProps)
                     <div className="font-bold text-sm bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20 line-clamp-1 max-w-[150px]">
                         {categoryName}
                     </div>
-                    <button
-                        onClick={() => {
-                            router.refresh();
-                            // If router.refresh() isn't enough for Vercel, a full reload will definitely do it
-                            // but usually it is enough.
-                        }}
-                        className="p-2 bg-white/10 hover:bg-white/20 rounded-full border border-white/20 transition-all active:rotate-180 duration-500"
-                        title="Ma'lumotlarni yangilash"
-                    >
-                        <RefreshCw size={16} />
-                    </button>
                 </div>
                 <div className="w-8"></div>
             </header>
