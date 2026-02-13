@@ -155,17 +155,17 @@ export default function TurismTwoQuizClient({ questions, themeName }: TurismTwoQ
                         const isSelected = selectedOptionId === option.id;
                         const isCorrect = option.is_correct;
 
-                        let cardClasses = "group relative bg-white/10 border border-white/20 rounded-2xl p-3 transition-all duration-200 flex flex-col items-center justify-between overflow-hidden active:scale-95 cursor-pointer hover:bg-white/20 h-full shadow-lg";
+                        let cardClasses = "group relative bg-white/10 border border-white/20 rounded-2xl p-2 transition-all duration-200 flex flex-col items-center justify-between overflow-hidden active:scale-95 cursor-pointer hover:bg-white/20 h-full shadow-lg";
 
                         if (isAnswered) {
                             if (isSelected && isCorrect) {
-                                cardClasses = "bg-green-500/20 border-green-500 ring-4 ring-green-500/30 rounded-2xl p-3 flex flex-col items-center justify-between overflow-hidden h-full shadow-lg";
+                                cardClasses = "bg-green-500/20 border-green-500 ring-4 ring-green-500/30 rounded-2xl p-2 flex flex-col items-center justify-between overflow-hidden h-full shadow-lg";
                             } else if (isSelected && !isCorrect) {
-                                cardClasses = "bg-red-500/20 border-red-500 ring-4 ring-red-500/30 rounded-2xl p-3 flex flex-col items-center justify-between overflow-hidden h-full shadow-lg";
+                                cardClasses = "bg-red-500/20 border-red-500 ring-4 ring-red-500/30 rounded-2xl p-2 flex flex-col items-center justify-between overflow-hidden h-full shadow-lg";
                             } else if (!isSelected && isCorrect) {
-                                cardClasses = "bg-green-500/20 border-green-500 rounded-2xl p-3 flex flex-col items-center justify-between overflow-hidden opacity-100 h-full shadow-lg";
+                                cardClasses = "bg-green-500/20 border-green-500 rounded-2xl p-2 flex flex-col items-center justify-between overflow-hidden opacity-100 h-full shadow-lg";
                             } else {
-                                cardClasses = "bg-white/5 border-white/10 rounded-2xl p-3 flex flex-col items-center justify-between overflow-hidden opacity-50 h-full";
+                                cardClasses = "bg-white/5 border-white/10 rounded-2xl p-2 flex flex-col items-center justify-between overflow-hidden opacity-50 h-full";
                             }
                         }
 
@@ -176,9 +176,9 @@ export default function TurismTwoQuizClient({ questions, themeName }: TurismTwoQ
                                 disabled={isAnswered}
                                 className={cardClasses}
                             >
-                                <div className="w-full aspect-[4/3] relative rounded-xl overflow-hidden mb-3 shrink-0 bg-white/5">
+                                <div className="w-full aspect-[3/4] relative rounded-xl overflow-hidden mb-2 shrink-0">
                                     {option.image_url ? (
-                                        <img src={option.image_url} alt={option.label} className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
+                                        <img src={option.image_url} alt={option.label} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                                     ) : (
                                         <div className="w-full h-full bg-indigo-900/40 flex items-center justify-center text-white/20 font-bold text-4xl">
                                             ?
@@ -197,7 +197,7 @@ export default function TurismTwoQuizClient({ questions, themeName }: TurismTwoQ
                                     )}
                                 </div>
                                 {option.label && (
-                                    <span className="font-semibold text-white text-[11px] md:text-sm tracking-wide text-center line-clamp-3 leading-tight min-h-[2.5em] flex items-center justify-center w-full px-1">
+                                    <span className="font-semibold text-white text-[11px] md:text-sm tracking-tight text-center line-clamp-2 leading-tight min-h-[2.5em] flex items-center justify-center w-full px-1">
                                         {option.label}
                                     </span>
                                 )}
