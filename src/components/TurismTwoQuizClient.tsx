@@ -142,7 +142,7 @@ export default function TurismTwoQuizClient({ questions, themeName }: TurismTwoQ
 
             {/* Question */}
             <div className="flex-1 flex flex-col max-w-6xl mx-auto w-full">
-                <h2 className="text-xl md:text-2xl lg:text-3xl font-extrabold mb-4 lg:mb-6 text-center leading-tight text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)] min-h-[60px] lg:min-h-0 flex items-center justify-center lg:line-clamp-1">
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-extrabold mb-4 lg:mb-6 text-center leading-tight text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)] min-h-[60px] lg:min-h-0 flex items-center justify-center">
                     {currentQuestion.question_text}
                 </h2>
 

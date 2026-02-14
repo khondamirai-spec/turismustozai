@@ -16,11 +16,13 @@ export default async function TurismTwoQuizPage({ params }: PageProps) {
 
     // Fetch all rows for this theme
     const { data: rows, error } = await supabase
-        .from('turism_questions_v2')
+        .from('reception2.0')
         .select('*')
-        .eq('theme', themeName)
-        .order('question', { ascending: true })
-        .order('created_at', { ascending: true });
+        .eq('mavzu', themeName)
+        // We order by 'test' (question id) to group them efficiently, 
+        // but 'test' is text (e.g. "1-test"), so sorting might be string-based in SQL.
+        // We will sort correctly in JS.
+        .order('test', { ascending: true });
 
     if (error) {
         console.error("Error fetching quiz data:", error);
@@ -33,19 +35,23 @@ export default async function TurismTwoQuizPage({ params }: PageProps) {
 
     // Group rows by question field
     const questionMap: { [key: string]: any } = {};
-    rows.forEach(row => {
-        if (!questionMap[row.question]) {
-            questionMap[row.question] = {
-                id: row.question, // Use question label ("1-savol") as unique ID within theme
-                question_text: row.question_text, // Use the actual question text
+    rows.forEach((row, index) => {
+        // 'test' is the question identifier (e.g. "1-test")
+        const questionId = row.test;
+
+        if (!questionMap[questionId]) {
+            questionMap[questionId] = {
+                id: questionId,
+                question_text: row.test_text,
                 options: []
             };
         }
-        questionMap[row.question].options.push({
-            id: row.id,
-            image_url: row.option_pic,
-            label: row.option_text,
-            is_correct: row.correct_answer
+
+        questionMap[questionId].options.push({
+            id: `${questionId}-opt-${index}`, // Generate unique ID for option
+            image_url: row.variant_rasm,
+            label: row.variant_text,
+            is_correct: row.togri_javob
         });
     });
 
