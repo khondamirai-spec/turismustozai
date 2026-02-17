@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowLeft, Mic, MicOff, Loader2, Volume2, Globe, Sparkles } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 import { getRealtimeSession } from "@/app/actions/realtime";
+import StarBackground from "@/components/StarBackground";
 
 export default function VoiceQuizPage() {
     const [isConnecting, setIsConnecting] = useState(false);
@@ -175,14 +176,8 @@ export default function VoiceQuizPage() {
 
     return (
         <div className="min-h-screen relative overflow-hidden flex flex-col items-center justify-center p-6 font-sans text-slate-100 selection:bg-indigo-500/30">
+            <StarBackground />
             <audio ref={audioElementRef} autoPlay />
-
-            {/* Animated Background Blobs */}
-            <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                <div className="absolute top-[-20%] left-[-20%] w-[900px] h-[900px] rounded-full bg-indigo-600/20 blur-[120px] animate-blob mix-blend-screen opacity-70"></div>
-                <div className="absolute bottom-[-20%] right-[-20%] w-[800px] h-[800px] rounded-full bg-purple-600/20 blur-[120px] animate-blob animation-delay-2000 mix-blend-screen opacity-70"></div>
-                <div className="absolute top-[40%] left-[20%] w-[600px] h-[600px] rounded-full bg-blue-600/10 blur-[100px] animate-blob animation-delay-4000 mix-blend-screen opacity-50"></div>
-            </div>
 
             {/* Header */}
             <header className="absolute top-0 left-0 right-0 z-10 flex justify-between items-center p-6 md:p-8 w-full max-w-7xl mx-auto">
@@ -203,15 +198,15 @@ export default function VoiceQuizPage() {
                 <div className="mb-12 space-y-4 text-center">
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gradient-to-r from-indigo-500/20 to-purple-500/20 border border-indigo-500/30 text-indigo-300 text-[10px] font-bold uppercase tracking-widest mb-4">
                         <Sparkles size={12} />
-                        <span>AI Ovozli Gid</span>
+                        <span>AI USTOZ</span>
                     </div>
                     <h1 className="text-4xl md:text-6xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white via-indigo-100 to-indigo-200 drop-shadow-2xl">
-                        Sayohat Gidingiz
+                        Savol Bering
                     </h1>
                     <p className="text-indigo-200/70 text-base md:text-lg max-w-lg mx-auto leading-relaxed">
                         {isConnected
                             ? "Gapiring, AI sizni tinglamoqda va savollaringizga javob beradi."
-                            : "O'zbekistonning boy tarixi va madaniyati haqida so'rang."}
+                            : ""}
                     </p>
                 </div>
 
@@ -280,7 +275,7 @@ export default function VoiceQuizPage() {
                             ) : (
                                 <>
                                     <Mic size={18} className="group-hover:scale-110 transition-transform" />
-                                    Gapirishni Boshlash
+                                    Suhbatni boshlash
                                 </>
                             )}
                         </span>
@@ -292,31 +287,11 @@ export default function VoiceQuizPage() {
                     </button>
                 </div>
 
-                {/* Transcript Card */}
-                <div className="w-full max-w-2xl mx-auto transform transition-all duration-500 hover:scale-[1.01]">
-                    <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-[2rem] p-8 shadow-2xl relative overflow-hidden group">
-                        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-500 opacity-50"></div>
 
-                        <div className="flex items-center gap-3 mb-4 opacity-60">
-                            <div className={`w-2 h-2 rounded-full ${isConnected ? 'bg-green-400 animate-pulse' : 'bg-slate-500'}`}></div>
-                            <p className="text-[10px] text-indigo-200 uppercase tracking-[0.2em] font-bold">Jonli Transkript</p>
-                        </div>
-
-                        <p className="text-lg md:text-xl font-medium leading-relaxed text-indigo-50 min-h-[3rem] transition-all">
-                            "{transcript}"
-                        </p>
-
-                        <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-indigo-500/10 rounded-full blur-3xl group-hover:bg-indigo-500/20 transition-all duration-500"></div>
-                    </div>
-                </div>
 
             </main>
 
-            <footer className="relative z-10 py-6 text-center">
-                <p className="text-indigo-400/40 text-[10px] uppercase tracking-[0.3em] font-bold hover:text-indigo-400/60 transition-colors cursor-default">
-                    Powered by OpenAI Realtime
-                </p>
-            </footer>
+
         </div>
     );
 }

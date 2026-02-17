@@ -21,7 +21,7 @@ export default function Home() {
               <BookOpen size={26} className="text-indigo-600" strokeWidth={2.5} />
             </div>
             <div className="flex-1 text-left">
-              <h2 className="text-lg font-bold text-white leading-tight">Turizm reception 1.0</h2>
+              <h2 className="text-lg font-bold text-white leading-tight">Reception 1.0</h2>
               <p className="text-gray-400 text-xs font-medium mt-0.5">Turism va reception savollari</p>
             </div>
             <div className="text-gray-600 group-hover:text-white transition-colors px-2">
@@ -36,7 +36,7 @@ export default function Home() {
               <BookOpen size={26} className="text-emerald-500" strokeWidth={2.5} />
             </div>
             <div className="flex-1 text-left">
-              <h2 className="text-lg font-bold text-white leading-tight">Turizm reception 2.0</h2>
+              <h2 className="text-lg font-bold text-white leading-tight">Reception 2.0</h2>
               <p className="text-gray-400 text-xs font-medium mt-0.5">Yangi savollar va mavzular</p>
             </div>
             <div className="text-gray-600 group-hover:text-white transition-colors px-2">
@@ -51,8 +51,8 @@ export default function Home() {
               <Mic size={26} className="text-purple-600" strokeWidth={2.5} />
             </div>
             <div className="flex-1 text-left">
-              <h2 className="text-lg font-bold text-white leading-tight">Ovozli Viktorina</h2>
-              <p className="text-gray-400 text-xs font-medium mt-0.5">Javoblaringizni ayting</p>
+              <h2 className="text-lg font-bold text-white leading-tight">Suhbatlashing</h2>
+              <p className="text-gray-400 text-xs font-medium mt-0.5">savol bering!</p>
             </div>
             <div className="text-gray-600 group-hover:text-white transition-colors px-2">
               &rarr;
@@ -62,7 +62,7 @@ export default function Home() {
       </main>
 
       <footer className="absolute bottom-6 text-indigo-200 text-xs opacity-60">
-        © 2026 Turizm Viktorinasi
+        © 2026 Ustoz AI
       </footer>
     </div>
   );
