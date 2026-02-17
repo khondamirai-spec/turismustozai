@@ -4,9 +4,9 @@ import StarBackground from "@/components/StarBackground";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-start pt-2 px-6 pb-6 font-sans text-white relative">
+    <div className="min-h-screen flex flex-col items-center justify-start pt-0 px-6 pb-6 font-sans text-white relative">
       <StarBackground />
-      <header className="mb-6 text-center flex flex-col items-center justify-center">
+      <header className="-mb-6 text-center flex flex-col items-center justify-center">
         <img
           src="/logo/hf_20260217_080417_3e77026e-ae70-4319-b57c-62a724b766ae-removebg-preview.png"
           alt="Turizm Viktorinasi Logo"
