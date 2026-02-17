@@ -101,7 +101,7 @@ export default function QuizClient({ questions, categoryName }: QuizClientProps)
 
     if (questions.length === 0) {
         return (
-            <div className="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white p-6">
+            <div className="min-h-screen flex items-center justify-center text-white p-6">
                 <div className="bg-white/10 p-8 rounded-2xl border border-white/20 text-center max-w-md">
                     <h2 className="text-2xl font-bold mb-4">Savollar topilmadi</h2>
                     <p className="text-indigo-100 mb-6">Kechirasiz, ushbu toifa uchun hali savollar mavjud emas.</p>
@@ -115,7 +115,7 @@ export default function QuizClient({ questions, categoryName }: QuizClientProps)
 
     if (isQuizFinished) {
         return (
-            <div className="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white p-6">
+            <div className="min-h-screen flex items-center justify-center text-white p-6">
                 <div className="bg-white/10 backdrop-blur-md p-8 rounded-3xl border border-white/20 text-center max-w-sm w-full shadow-2xl">
                     <div className="mb-6 flex justify-center">
                         <div className="bg-yellow-400 p-4 rounded-full shadow-lg animate-bounce">
@@ -144,7 +144,7 @@ export default function QuizClient({ questions, categoryName }: QuizClientProps)
     }
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-600 flex flex-col p-6 font-sans text-white">
+        <div className="min-h-screen flex flex-col p-6 font-sans text-white">
             {/* Header */}
             <header className="flex items-center mb-6 justify-between">
                 <Link

@@ -14,7 +14,7 @@ export default async function TextQuizPage() {
     if (error) {
         console.error("Error fetching modules:", error);
         return (
-            <div className="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white">
+            <div className="min-h-screen flex items-center justify-center text-white">
                 <div className="bg-white/10 p-6 rounded-xl border border-white/20">
                     <p>Mavzularni yuklashda xatolik yuz berdi. Iltimos, keyinroq qayta urinib ko'ring.</p>
                 </div>
@@ -60,7 +60,7 @@ export default async function TextQuizPage() {
     });
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-600 p-6 font-sans text-white">
+        <div className="min-h-screen p-6 font-sans text-white">
             <header className="flex items-center mb-8">
                 <Link href="/" className="flex items-center text-indigo-100 hover:text-white transition-colors bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
                     <ArrowLeft size={18} className="mr-2" />

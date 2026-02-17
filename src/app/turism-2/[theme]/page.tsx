@@ -26,11 +26,11 @@ export default async function TurismTwoQuizPage({ params }: PageProps) {
 
     if (error) {
         console.error("Error fetching quiz data:", error);
-        return <div className="p-6 text-white bg-indigo-600 min-h-screen flex items-center justify-center">Viktorinani yuklashda xatolik.</div>;
+        return <div className="p-6 text-white min-h-screen flex items-center justify-center">Viktorinani yuklashda xatolik.</div>;
     }
 
     if (!rows || rows.length === 0) {
-        return <div className="p-6 text-white bg-indigo-600 min-h-screen flex items-center justify-center">Ushbu mavzu bo'yicha savollar topilmadi.</div>;
+        return <div className="p-6 text-white min-h-screen flex items-center justify-center">Ushbu mavzu bo'yicha savollar topilmadi.</div>;
     }
 
     // Group rows by question field

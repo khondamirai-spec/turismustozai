@@ -174,7 +174,7 @@ export default function VoiceQuizPage() {
         : 'bg-white/10 shadow-[0_0_30px_rgba(255,255,255,0.1)]';
 
     return (
-        <div className="min-h-screen relative overflow-hidden bg-[#0a0a16] flex flex-col items-center justify-center p-6 font-sans text-slate-100 selection:bg-indigo-500/30">
+        <div className="min-h-screen relative overflow-hidden flex flex-col items-center justify-center p-6 font-sans text-slate-100 selection:bg-indigo-500/30">
             <audio ref={audioElementRef} autoPlay />
 
             {/* Animated Background Blobs */}
