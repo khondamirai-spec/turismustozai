@@ -60,43 +60,46 @@ export default async function TextQuizPage() {
     });
 
     return (
-        <div className="min-h-screen p-6 font-sans text-white">
-            <header className="flex items-center mb-8">
-                <Link href="/" className="flex items-center text-indigo-100 hover:text-white transition-colors bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
-                    <ArrowLeft size={18} className="mr-2" />
+        <div className="min-h-screen p-6 font-sans text-white pb-20">
+            <header className="flex items-center mb-10">
+                <Link href="/" className="group flex items-center text-indigo-200/80 hover:text-white transition-all bg-white/5 hover:bg-white/10 backdrop-blur-md px-5 py-2.5 rounded-2xl border border-white/10 hover:border-white/20">
+                    <ArrowLeft size={18} className="mr-2 group-hover:-translate-x-1 transition-transform" />
                     <span className="font-semibold text-sm">Orqaga</span>
                 </Link>
             </header>
 
-            <div className="mb-8">
-                <h1 className="text-3xl font-extrabold mb-2 text-white drop-shadow-md">
-                    Mavzuni tanlang
+            <div className="mb-10 px-2 space-y-2">
+                <h1 className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white via-indigo-100 to-indigo-300 drop-shadow-sm tracking-tight">
+                    Reception 1.0
                 </h1>
-                <p className="text-indigo-100 text-sm opacity-80">
-                    Boshlash uchun toifani tanlang
-                </p>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                 {categories?.map((category) => (
                     <Link
                         href={`/text-quiz/${category.id}`}
                         key={category.id}
-                        className="group bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl overflow-hidden active:scale-95 transition-all duration-200 cursor-pointer flex flex-col shadow-lg hover:bg-white/20"
+                        className="group relative bg-white/5 backdrop-blur-sm border border-white/10 hover:border-indigo-500/50 rounded-3xl p-5 transition-all duration-300 hover:bg-white/10 hover:shadow-xl hover:shadow-indigo-500/10 hover:-translate-y-1 overflow-hidden"
                     >
-                        <div className="relative aspect-square overflow-hidden">
-                            <img
-                                src={category.image_url || "/placeholder.jpg"}
-                                alt={category.name}
-                                className="w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-4">
-                                {category.description && (
-                                    <p className="text-sm font-medium text-gray-100 line-clamp-2 drop-shadow-sm">
-                                        {category.description}
-                                    </p>
-                                )}
+                        <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-500/20 rounded-full blur-3xl -mr-16 -mt-16 transition-opacity opacity-0 group-hover:opacity-100 duration-500"></div>
+
+                        <div className="relative flex items-center gap-5 z-10">
+                            <div className="flex-shrink-0 w-14 h-14 bg-white/10 rounded-2xl flex items-center justify-center overflow-hidden shadow-inner ring-1 ring-white/5 group-hover:ring-white/20 transition-all duration-300">
+                                <img
+                                    src={category.image_url || "/placeholder.jpg"}
+                                    alt={category.name}
+                                    className="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"
+                                />
+                            </div>
+
+                            <div className="flex-1 min-w-0">
+                                <h2 className="text-lg font-bold text-white group-hover:text-indigo-100 transition-colors truncate">
+                                    {category.name}
+                                </h2>
+                            </div>
+
+                            <div className="flex-shrink-0 w-8 h-8 rounded-full bg-white/5 flex items-center justify-center text-white/30 group-hover:text-white group-hover:bg-white/10 transition-all duration-300">
+                                <ArrowLeft className="rotate-180 w-4 h-4" />
                             </div>
                         </div>
                     </Link>

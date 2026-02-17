@@ -145,35 +145,37 @@ export default function QuizClient({ questions, categoryName }: QuizClientProps)
 
     return (
         <div className="min-h-screen flex flex-col p-6 font-sans text-white">
-            {/* Header */}
-            <header className="flex items-center mb-6 justify-between">
-                <Link
-                    href="/text-quiz"
-                    className="flex items-center text-indigo-100 hover:text-white transition-colors bg-white/10 backdrop-blur-md px-3 py-2 rounded-full border border-white/20"
-                >
-                    <ArrowLeft size={18} className="mr-1" />
-                </Link>
-                <div className="flex items-center gap-2">
-                    <div className="font-bold text-sm bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20 line-clamp-1 max-w-[150px]">
+            {/* Header / Top Bar */}
+            <header className="flex items-center justify-between mb-8 bg-white/5 backdrop-blur-md p-3 rounded-3xl border border-white/10 shadow-lg">
+                <div className="flex items-center gap-3 lg:gap-4 ml-1">
+                    <Link
+                        href="/text-quiz"
+                        className="flex items-center justify-center text-white bg-white/10 hover:bg-white/20 transition-all w-10 h-10 rounded-full border border-white/20"
+                    >
+                        <ArrowLeft size={18} />
+                    </Link>
+
+                    <div className="flex flex-col leading-none ml-1 lg:ml-2">
+                        <span className="text-[9px] lg:text-[11px] uppercase tracking-tighter text-indigo-200 mb-0.5 opacity-70">Savol</span>
+                        <div className="font-black text-sm lg:text-lg">
+                            {currentIndex + 1}<span className="text-indigo-300/60 font-medium scale-95 lg:scale-100 inline-block ml-0.5">/{questions.length}</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="mx-2 flex-1 flex justify-center overflow-hidden">
+                    <div className="px-5 py-2 lg:py-2.5 bg-white/10 rounded-2xl border border-white/10 font-bold text-[13px] lg:text-base tracking-tight whitespace-nowrap overflow-hidden text-ellipsis shadow-inner">
                         {categoryName}
                     </div>
                 </div>
-                <div className="w-8"></div>
-            </header>
 
-            {/* Progress */}
-            <div className="mb-8 flex justify-between items-center px-2">
-                <div className="flex flex-col">
-                    <span className="text-[10px] uppercase tracking-widest text-indigo-200 mb-1">Savol</span>
-                    <span className="text-2xl font-black">
-                        {currentIndex + 1} <span className="text-white/40 text-lg">/ {questions.length}</span>
-                    </span>
+                <div className="flex flex-col items-end leading-none mr-2 lg:mr-6">
+                    <span className="text-[9px] lg:text-[11px] uppercase tracking-tighter text-indigo-200 mb-0.5 opacity-70">Natija</span>
+                    <div className="font-black text-sm lg:text-xl text-white mr-1">
+                        {score}
+                    </div>
                 </div>
-                <div className="flex flex-col items-end">
-                    <span className="text-[10px] uppercase tracking-widest text-indigo-200 mb-1">Natija</span>
-                    <span className="text-2xl font-black text-white">{score}</span>
-                </div>
-            </div>
+            </header>
 
             {/* Question */}
             <div className="flex-1 flex flex-col max-w-2xl mx-auto w-full">

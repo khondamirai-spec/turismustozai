@@ -96,7 +96,7 @@ export default async function QuizPage({ params }: PageProps) {
     return (
         <QuizClient
             questions={validQuestions}
-            categoryName={categoryName}
+            categoryName={categoryName.toUpperCase()}
         />
     );
 }

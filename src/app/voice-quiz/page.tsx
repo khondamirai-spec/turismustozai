@@ -216,6 +216,26 @@ export default function VoiceQuizPage() {
                     <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] rounded-full border border-indigo-500/20 transition-opacity duration-1000 ${isConnected ? 'animate-[spin_10s_linear_infinite] opacity-100' : 'opacity-20'}`}></div>
                     <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[240px] h-[240px] rounded-full border border-purple-500/20 transition-opacity duration-1000 ${isConnected ? 'animate-[spin_15s_linear_infinite_reverse] opacity-100' : 'opacity-20'}`}></div>
 
+                    {/* Listening Ripple Effects - INTENSIFIED */}
+                    {isConnected && !isTalking && (
+                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] z-0 pointer-events-none flex items-center justify-center">
+                            {/* Large ambient glow */}
+                            <div className="absolute inset-0 bg-emerald-500/10 rounded-full blur-3xl animate-pulse"></div>
+
+                            {/* Fast intense ripple */}
+                            <div className="absolute w-40 h-40 bg-emerald-400/20 rounded-full animate-[ping_1.5s_cubic-bezier(0,0,0.2,1)_infinite]"></div>
+
+                            {/* Secondary ripple */}
+                            <div className="absolute w-56 h-56 border-2 border-emerald-400/40 rounded-full animate-[ping_2s_cubic-bezier(0,0,0.2,1)_infinite] delay-75"></div>
+
+                            {/* Third wide ripple */}
+                            <div className="absolute w-72 h-72 border border-emerald-500/30 rounded-full animate-[ping_2.5s_cubic-bezier(0,0,0.2,1)_infinite] delay-150"></div>
+
+                            {/* Outer breathing ring */}
+                            <div className="absolute w-96 h-96 border border-emerald-500/20 rounded-full animate-[pulse_2s_ease-in-out_infinite]"></div>
+                        </div>
+                    )}
+
                     {/* Core Visualizer */}
                     <div className="relative z-20">
                         <div
@@ -231,7 +251,11 @@ export default function VoiceQuizPage() {
                                 isTalking ? (
                                     <Volume2 size={48} className="text-white animate-pulse drop-shadow-lg" />
                                 ) : (
-                                    <Mic size={48} className="text-white drop-shadow-lg" />
+                                    <div className="relative">
+                                        <Mic size={48} className="text-white drop-shadow-lg relative z-10" />
+                                        {/* Inner Mic Glow */}
+                                        <div className="absolute inset-0 bg-emerald-400/50 blur-xl animate-pulse"></div>
+                                    </div>
                                 )
                             ) : (
                                 <MicOff size={48} className="text-white/50" />
